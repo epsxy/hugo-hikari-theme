@@ -1,11 +1,13 @@
-# Hikari theme
+# Minhikari theme
+
+Minhikari is a fork of [Hikari theme](https://github.com/digitalcraftsman/hugo-hikari-theme.git) for hugo by [digitalcraftsman](https://github.com/digitalcraftsman). It's currently deprecated so I'm maintaining this one with new features for my own usage. The content of this `README.md` still contains references to the original repository & theme and will be updated later on. The feature I want to add first is a light/dark theme button.
+
+## Hikari theme description
 
 Hikari is a simple theme for bloggers, whose minimalism tries to focus readers on the content. It's a port of [Mathieu Mayer-Mazzoli](//github.com/mx3m)'s orignal [Hikari theme](//github.com/mx3m/hikari-for-Jekyll) made for Jekyll. Noteworthy features are the integration of a comment-system powered by Disqus, optional statistics via Google Analytics, support for RSS and syntax highlighting for source code in blog posts.
 
-#### Please note that this theme is no longer maintained.
 
 ![Screenshot](https://raw.githubusercontent.com/digitalcraftsman/hugo-hikari-theme/dev/images/screenshot.png)
-
 
 ## Installation
 
@@ -13,7 +15,7 @@ Inside the folder of your Hugo site run:
 
     $ mkdir themes
     $ cd themes
-    $ git clone https://github.com/digitalcraftsman/hugo-hikari-theme.git
+    $ git clone https://github.com/epsxy/minhikari.git
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -61,6 +63,7 @@ This theme is released under the MIT license. For more information read the [Lic
 
 Thanks to 
 
+- [digitalcraftsman](//github.com/digitalcraftsman) for porting the original Hikari theme to hugo.
 - [Mathieu Mayer-Mazzoli](//github.com/mx3m) for creating this theme
 - [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
 
