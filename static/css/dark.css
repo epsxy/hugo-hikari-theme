@@ -16,10 +16,6 @@
     background: 0, 0;
 }
 
-.dark-mode .menu-sun {
-    fill: red;
-}
-
 /************* POSTS *************/
 .dark-mode .posts li .p-wrap {
     background: #14213d;
