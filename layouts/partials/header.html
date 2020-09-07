@@ -1,14 +1,14 @@
 <header>
 	<div class="h-wrap">
-		{{ with .Site.Title }}
-		<h1 class="title"><a href="{{ $.Site.BaseURL }}">{{ . }}</a></h1>
-		{{ end }}
 		<button class="sun-btn hidden" title="Sun">
 			<span class="menu-sun"></span>
 		</button>
 		<button class="moon-btn" title="Moon">
 			<span class="menu-moon"></span>
 		</button>
+		{{ with .Site.Title }}
+		<h1 class="title"><a href="{{ $.Site.BaseURL }}">{{ . }}</a></h1>
+		{{ end }}
 		<a class="menu-icon" title="Menu"><span class="lines"></span></a>
 	</div>
 </header>
