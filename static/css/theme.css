@@ -19,6 +19,10 @@ header > div.h-wrap {
 .sun-btn {
   fill: #fca311;
 }
+.sun-btn:hover,
+.moon-btn:hover {
+  fill: #f15bb5;
+}
 
 .sun-btn:focus,
 .moon-btn:focus {

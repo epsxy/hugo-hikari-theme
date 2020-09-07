@@ -33,7 +33,7 @@
 }
 
 /************* POST PAGE *************/
-.dark-mode .site-wrapper {
+body.dark-mode {
     background: #14213d;
 }
 .dark-mode section {
@@ -48,4 +48,15 @@
 }
 .dark-mode article {
     color: #fff;
+}
+.dark-mode article a {
+    color: #fca311;
+}
+.dark-mode article a:hover {
+     color: #F15BB5;
+ }
+.dark-mode img {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 1px;
 }
