@@ -1,11 +1,11 @@
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "hikari"
+title = "minhikari"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "spf13"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-theme = "hugo-hikari-theme"
+theme = "minhikari"
 
 [permalinks]
 	post = "/:year/:month/:day/:slug"
@@ -13,7 +13,7 @@ theme = "hugo-hikari-theme"
 [params]
 	name = "Your name"
 	description = "Describe your website"
-	copyright = "POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © JOHN DOE"
+	copyright = "POWERED BY [HUGO](//gohugo.io) - THEME: [MINHIKARI](//github.com/epsxy/minhikari) - © JOHN DOE"
 
 	# Custom assets can be linked with their paths relative to static/
 	custom_css = []
