@@ -1,62 +1,105 @@
+body {
+    --primary: #14213d;
+    --secondary: #fca311;
+    --tertiary: #f15bb5;
+    --dark: #000;
+    --light: #fff;
+}
+
 /************* HEADER *************/
 .dark-mode header {
-    background-color: #000;
+    background-color: var(--dark);
 }
+
 .dark-mode .h-wrap h1.title a {
-    color: #fca311;
+    color: var(--secondary);
 }
 
 .dark-mode .menu-icon .lines,
 .dark-mode .menu-icon .lines::before,
 .dark-mode .menu-icon .lines::after {
-    background-color: #fca311;
+    background-color: var(--secondary);
 }
 
 .dark-mode .h-wrap .close .lines {
     background: 0, 0;
 }
 
+.dark-mode .h-wrap h1.title a:hover {
+    color: var(--tertiary);
+}
+
+/************* OFF-CANVAS *************/
+.dark-mode .off-canvas.toggled {
+    border-left: 1px solid var(--secondary);
+}
+
+.dark-mode .off-canvas {
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.dark-mode .bio p {
+    color: var(--light);
+}
+
+.dark-mode .off-canvas.toggled a {
+    color: var(--secondary);
+}
+
+.dark-mode .off-canvas.toggled a:hover {
+    color: var(--tertiary);
+}
+
 /************* POSTS *************/
 .dark-mode .posts li .p-wrap {
-    background: #14213d;
+    background: var(--primary);
 }
 
 .dark-mode .posts li time {
-    color: #fca311;
+    color: var(--secondary);
 }
 
 .dark-mode .posts li {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--dark);
 }
+
 .dark-mode .posts li:first-child {
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--dark);
 }
 
 /************* POST PAGE *************/
 body.dark-mode {
-    background: #14213d;
+    background: var(--primary);
 }
+
 .dark-mode section {
-    background: #14213d;
+    background: var(--primary);
 }
+
 .dark-mode .single-wrap .feat {
     border-bottom: 1px solid #e0e1e6;
 }
+
 .dark-mode .single-wrap .page-date,
 .dark-mode .single-wrap .feat a.popup {
-    background: #14213d;
+    background: var(--primary);
 }
+
 .dark-mode article {
-    color: #fff;
+    color: var(--light);
 }
+
 .dark-mode article a {
-    color: #fca311;
+    color: var(--secondary);
 }
+
 .dark-mode article a:hover {
-     color: #F15BB5;
- }
+    color: var(--tertiary);
+}
+
 .dark-mode article img {
-    background-color: #fff;
+    background-color: var(--light);
     padding: 1em;
     border-radius: 1px;
 }
