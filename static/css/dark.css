@@ -1,0 +1,120 @@
+/************* VARIABLES *************/
+body {
+    --primary: #0b132b;
+    --secondary: #fee440;
+    --tertiary: #f15bb5;
+    --dark: #000;
+    --light: #ffecd1;
+}
+
+/************* HEADER *************/
+.dark header {
+    background-color: var(--dark);
+    border-bottom: 1px solid var(--secondary);
+}
+
+.dark .h-wrap h1.title a {
+    color: var(--secondary);
+}
+
+.dark .menu-icon .lines,
+.dark .menu-icon .lines::before,
+.dark .menu-icon .lines::after {
+    background-color: var(--secondary);
+}
+
+.dark .h-wrap .close .lines {
+    background: 0, 0;
+}
+
+.dark .h-wrap h1.title a:hover {
+    color: var(--tertiary);
+}
+
+/************* OFF-CANVAS *************/
+.dark .off-canvas.toggled {
+    border-left: 1px solid var(--secondary);
+}
+
+.dark .off-canvas {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.dark .bio p {
+    color: var(--light);
+}
+
+.dark .off-canvas.toggled a {
+    color: var(--secondary);
+}
+
+.dark .off-canvas.toggled a:hover {
+    color: var(--tertiary);
+}
+
+/************* POSTS *************/
+.dark .posts li .p-wrap {
+    background: var(--primary);
+}
+
+.dark .posts li time {
+    color: var(--secondary);
+}
+
+.dark .posts li {
+    border-bottom: 1px solid var(--secondary);
+}
+
+.dark .posts li:first-child {
+    border-top: none;
+}
+
+.dark .posts li a {
+    color: var(--light);
+}
+
+.dark .off-canvas nav h6 {
+    color: var(--light);
+    border-color: var(--light);
+}
+
+/************* POST PAGE *************/
+body.dark {
+    background: var(--primary);
+}
+
+.dark section {
+    background: var(--primary);
+}
+
+.dark .single-wrap .feat {
+    border-bottom: 1px solid var(--light);
+}
+
+.dark .single-wrap .page-date,
+.dark .single-wrap .feat a.popup {
+    background: var(--primary);
+}
+
+.dark .single-wrap .page-date {
+    color: var(--light);
+}
+
+.dark article {
+    color: var(--light);
+}
+
+.dark article a {
+    color: var(--secondary);
+}
+
+.dark article a:hover {
+    color: var(--tertiary);
+}
+
+.dark article img {
+    background-color: var(--light);
+    padding: 1em;
+    border-radius: 1px;
+}

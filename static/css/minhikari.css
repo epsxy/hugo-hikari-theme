@@ -1,0 +1,45 @@
+.off-canvas .avatar {
+    text-align: center;
+}
+
+.off-canvas .avatar img {
+    width: 8em;
+    height: 8em;
+}
+
+header > div.h-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sun-btn,
+.moon-btn {
+    height: 30px;
+    width: 30px;
+    margin-right: 1em;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.sun-btn {
+    fill: #fca311;
+}
+
+.sun-btn:hover,
+.moon-btn:hover {
+    fill: #f15bb5;
+}
+
+.sun-btn:focus,
+.moon-btn:focus {
+    outline: 0;
+}
+
+.sun-btn.hidden,
+.moon-btn.hidden {
+    display: none;
+}
