@@ -1,0 +1,55 @@
+/************* HEADER *************/
+.dark-mode header {
+    background-color: #000;
+}
+.dark-mode .h-wrap h1.title a {
+    color: #fca311;
+}
+
+.dark-mode .menu-icon .lines,
+.dark-mode .menu-icon .lines::before,
+.dark-mode .menu-icon .lines::after {
+    background-color: #fca311;
+}
+
+.dark-mode .h-wrap .close .lines {
+    background: 0, 0;
+}
+
+.dark-mode .menu-sun {
+    fill: red;
+}
+
+/************* POSTS *************/
+.dark-mode .posts li .p-wrap {
+    background: #14213d;
+}
+
+.dark-mode .posts li time {
+    color: #fca311;
+}
+
+.dark-mode .posts li {
+    border-bottom: 1px solid #000;
+}
+.dark-mode .posts li:first-child {
+    border-top: 1px solid #000;
+}
+
+/************* POST PAGE *************/
+.dark-mode .site-wrapper {
+    background: #14213d;
+}
+.dark-mode section {
+    background: #14213d;
+}
+.dark-mode .single-wrap .feat {
+    border-bottom: 1px solid #e0e1e6;
+}
+.dark-mode .single-wrap .page-date,
+.dark-mode .single-wrap .feat a.popup {
+    background: #14213d;
+}
+.dark-mode article {
+    color: #fff;
+}
