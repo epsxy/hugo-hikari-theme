@@ -1,3 +1,4 @@
+/************* VARIABLES *************/
 body {
     --primary: #0b132b;
     --secondary: #fee440;
@@ -7,111 +8,112 @@ body {
 }
 
 /************* HEADER *************/
-.dark-mode header {
+.dark header {
     background-color: var(--dark);
+    border-bottom: 1px solid var(--secondary);
 }
 
-.dark-mode .h-wrap h1.title a {
+.dark .h-wrap h1.title a {
     color: var(--secondary);
 }
 
-.dark-mode .menu-icon .lines,
-.dark-mode .menu-icon .lines::before,
-.dark-mode .menu-icon .lines::after {
+.dark .menu-icon .lines,
+.dark .menu-icon .lines::before,
+.dark .menu-icon .lines::after {
     background-color: var(--secondary);
 }
 
-.dark-mode .h-wrap .close .lines {
+.dark .h-wrap .close .lines {
     background: 0, 0;
 }
 
-.dark-mode .h-wrap h1.title a:hover {
+.dark .h-wrap h1.title a:hover {
     color: var(--tertiary);
 }
 
 /************* OFF-CANVAS *************/
-.dark-mode .off-canvas.toggled {
+.dark .off-canvas.toggled {
     border-left: 1px solid var(--secondary);
 }
 
-.dark-mode .off-canvas {
+.dark .off-canvas {
     background-color: var(--dark);
     color: var(--light);
 }
 
-.dark-mode .bio p {
+.dark .bio p {
     color: var(--light);
 }
 
-.dark-mode .off-canvas.toggled a {
+.dark .off-canvas.toggled a {
     color: var(--secondary);
 }
 
-.dark-mode .off-canvas.toggled a:hover {
+.dark .off-canvas.toggled a:hover {
     color: var(--tertiary);
 }
 
 /************* POSTS *************/
-.dark-mode .posts li .p-wrap {
+.dark .posts li .p-wrap {
     background: var(--primary);
 }
 
-.dark-mode .posts li time {
+.dark .posts li time {
     color: var(--secondary);
 }
 
-.dark-mode .posts li {
+.dark .posts li {
     border-bottom: 1px solid var(--secondary);
 }
 
-.dark-mode .posts li:first-child {
-    border-top: 1px solid var(--secondary);
+.dark .posts li:first-child {
+    border-top: none;
 }
 
-.dark-mode .posts li a {
+.dark .posts li a {
     color: var(--light);
 }
 
-.dark-mode .off-canvas nav h6 {
+.dark .off-canvas nav h6 {
     color: var(--light);
     border-color: var(--light);
 }
 
 /************* POST PAGE *************/
-body.dark-mode {
+body.dark {
     background: var(--primary);
 }
 
-.dark-mode section {
+.dark section {
     background: var(--primary);
 }
 
-.dark-mode .single-wrap .feat {
+.dark .single-wrap .feat {
     border-bottom: 1px solid var(--light);
 }
 
-.dark-mode .single-wrap .page-date,
-.dark-mode .single-wrap .feat a.popup {
+.dark .single-wrap .page-date,
+.dark .single-wrap .feat a.popup {
     background: var(--primary);
 }
 
-.dark-mode .single-wrap .page-date {
+.dark .single-wrap .page-date {
     color: var(--light);
 }
 
-.dark-mode article {
+.dark article {
     color: var(--light);
 }
 
-.dark-mode article a {
+.dark article a {
     color: var(--secondary);
 }
 
-.dark-mode article a:hover {
+.dark article a:hover {
     color: var(--tertiary);
 }
 
-.dark-mode article img {
+.dark article img {
     background-color: var(--light);
     padding: 1em;
     border-radius: 1px;

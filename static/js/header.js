@@ -1,8 +1,8 @@
 var $sunIcon = document.getElementsByClassName('sun-btn')[0],
     $moonIcon = document.getElementsByClassName('moon-btn')[0];
 
-if (localStorage.getItem('darkMode')) {
-    document.body.classList.add('dark-mode');
+if (localStorage.getItem('theme') && localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark');
     removeClass($sunIcon, 'hidden');
     addClass($moonIcon, 'hidden');
 }
@@ -10,8 +10,8 @@ if (localStorage.getItem('darkMode')) {
 $sunIcon.addEventListener(
     'click',
     function() {
-        localStorage.removeItem('darkMode');
-        document.body.classList.remove('dark-mode');
+        localStorage.setItem('theme', 'light');
+        document.body.classList.remove('dark');
         addClass($sunIcon, 'hidden');
         removeClass($moonIcon, 'hidden');
     },
@@ -21,8 +21,8 @@ $sunIcon.addEventListener(
 $moonIcon.addEventListener(
     'click',
     function() {
-        localStorage.setItem('darkMode', 'true');
-        document.body.classList.add('dark-mode');
+        localStorage.setItem('theme', 'dark');
+        document.body.classList.add('dark');
         removeClass($sunIcon, 'hidden');
         addClass($moonIcon, 'hidden');
     },
