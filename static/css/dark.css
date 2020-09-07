@@ -61,11 +61,15 @@ body {
 }
 
 .dark-mode .posts li {
-    border-bottom: 1px solid var(--dark);
+    border-bottom: 1px solid var(--secondary);
 }
 
 .dark-mode .posts li:first-child {
-    border-top: 1px solid var(--dark);
+    border-top: 1px solid var(--secondary);
+}
+
+.dark-mode .posts li a {
+    color: var(--light);
 }
 
 /************* POST PAGE *************/
@@ -78,7 +82,7 @@ body.dark-mode {
 }
 
 .dark-mode .single-wrap .feat {
-    border-bottom: 1px solid #e0e1e6;
+    border-bottom: 1px solid var(--light);
 }
 
 .dark-mode .single-wrap .page-date,
