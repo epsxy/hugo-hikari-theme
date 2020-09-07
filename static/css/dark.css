@@ -72,6 +72,11 @@ body {
     color: var(--light);
 }
 
+.dark-mode .off-canvas nav h6 {
+    color: var(--light);
+    border-color: var(--light);
+}
+
 /************* POST PAGE *************/
 body.dark-mode {
     background: var(--primary);
@@ -88,6 +93,10 @@ body.dark-mode {
 .dark-mode .single-wrap .page-date,
 .dark-mode .single-wrap .feat a.popup {
     background: var(--primary);
+}
+
+.dark-mode .single-wrap .page-date {
+    color: var(--light);
 }
 
 .dark-mode article {
