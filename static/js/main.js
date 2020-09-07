@@ -2,30 +2,7 @@ window.onload = function() {
 
     var $menuIcon = document.getElementsByClassName('menu-icon')[0],
         $offCanva = document.getElementsByClassName('off-canvas')[0],
-        $siteWrap = document.getElementsByClassName('site-wrapper')[0],
-        $sunIcon = document.getElementsByClassName('sun-btn')[0],
-        $moonIcon = document.getElementsByClassName('moon-btn')[0];
-
-
-    if (localStorage.getItem('darkMode')) {
-        removeClass($sunIcon, 'hidden');
-        addClass($moonIcon, 'hidden');
-        document.body.classList.add('dark-mode');
-    }
-
-    $sunIcon.addEventListener('click', function() {
-        localStorage.removeItem('darkMode');
-        document.body.classList.remove('dark-mode');
-        toggleClass($sunIcon, 'hidden');
-        toggleClass($moonIcon, 'hidden');
-    }, false);
-
-    $moonIcon.addEventListener('click', function() {
-        localStorage.setItem('darkMode', 'true');
-        document.body.classList.add('dark-mode');
-        toggleClass($sunIcon, 'hidden');
-        toggleClass($moonIcon, 'hidden');
-    }, false);
+        $siteWrap = document.getElementsByClassName('site-wrapper')[0];
 
     $menuIcon.addEventListener('click', function() {
         toggleClass($menuIcon, 'close');
