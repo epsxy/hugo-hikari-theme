@@ -92,6 +92,10 @@ body {
     border-top: none;
 }
 
+.dark .posts li:last-child {
+    border-bottom: none;
+}
+
 .dark .posts li a {
     color: var(--light);
 }
@@ -99,6 +103,35 @@ body {
 .dark .off-canvas nav h6 {
     color: var(--light);
     border-color: var(--border);
+}
+
+/************* NEXT/PREVIOUS ARROWS (HOME) *************/
+.dark .pagination {
+    color: var(--light);
+    border-color: var(--border);
+    margin-top: unset;
+}
+
+.dark .pagination a {
+    color: var(--secondary);
+}
+
+.dark .pagination a:hover {
+    background-color: var(--border);
+    color: var(--tertiary);
+}
+
+.dark .pagination span:first-child {
+    border-color: var(--border);
+}
+
+.dark .pagination a:first-child {
+    border-color: var(--border);
+}
+
+/************* FOOTER *************/
+.dark footer {
+    background-color: var(--dark);
 }
 
 /************* POST PAGE *************/
@@ -140,7 +173,7 @@ body.dark {
     border-radius: 1px;
 }
 
-/************* NEXT/PREVIOUS ARROWS *************/
+/************* NEXT/PREVIOUS ARROWS (ARTICLE) *************/
 .dark a#prev, .dark a#next {
     background: var(--border);
     border-color: var(--dark);
