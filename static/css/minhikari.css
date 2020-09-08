@@ -25,15 +25,6 @@ header > div.h-wrap {
     align-items: center;
 }
 
-.sun-btn {
-    fill: #fca311;
-}
-
-.sun-btn:hover,
-.moon-btn:hover {
-    fill: #f15bb5;
-}
-
 .sun-btn:focus,
 .moon-btn:focus {
     outline: 0;
